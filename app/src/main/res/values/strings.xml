@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Dino Pedia App</string>
+    <string name="detail_family1">
+        Theropoda terbesar saat ini adalah burung unta, dengan tinggi 2,74 m dan berat antara 63,5 dan 145,15 kg.
+        Sedangkan Theropoda terkecil adalah troodontid Anchiornis huxleyi, dengan berat 110 gram dan panjang 34 cm
+        Baru baru ini sebuah teori mengusulkan bahwa ukuran tubuh Theropoda terus menyusut selama 50 juta tahun terakhir, dari rata-rata 163 kilogram menjadi 0,8 kilogram, akhirnya berkembang menjadi burung modern. Hal ini didasarkan pada bukti bahwa theropoda adalah satu-satunya dinosaurus yang dapat terus menerus lebih kecil, dan bahwa kerangka mereka berubah empat kali lebih cepat dari spesies dinosaurus lainnya
+    </string>
+
+    <string name="detail_family2">
+        Sauropodomorpha beradaptasi untuk meramban pada ketinggian yang lebih tinggi daripada herbivor lainnya, memberi mereka akses kepada dedaunan pohon tinggi. Strategi makan ini didukung oleh banyak dari karakteristik yang mendefinisikan mereka, seperti: tengkorak yang ringan dan kecil di ujung leher yang panjang (dengan 10 atau lebih vertebra serviks) serta memiliki ekor panjang sebagai penyeimbang (dengan 1 hingga 3 vertebra sakral tambahan).
+        Gigi mereka lemah, dan berbentuk seperti daun (lanceolate) atau sendok (spatulate). Alih-alih gigi penggilas (seperti molar), mereka menelan batu gastrolit untuk membantu mencerna materi serat tumbuhan yang sulit dicerna. Bagian depan dari mulut atas mereka memiliki bentuk bengkok kebawah, kemungkinan merupakan sebuah paruh.
+    </string>
+
+    <string name="detail_family3">
+        Ornithischia awal adalah dinosaurus yang relatif kecil, dengan panjang tubuh rata-rata sekitar 1–2 meter, dengan tengkorak segitiga yang memiliki orbit melingkar besar di sisinya. Hal ini menunjukkan bahwa ornithischia awal memiliki mata yang relatif besar dan menghadap ke samping. Tungkai depan ornithischia awal jauh lebih pendek dibandingkan tungkai belakangnya. Tungkai depan kecil seperti yang terdapat pada ornithischia awal tidak akan berguna untuk bergerak, dan terbukti bahwa ornithischia awal adalah dinosaurus berkaki dua. Seluruh kerangkanya bertubuh ringan, dengan tengkorak yang sebagian besar berfenestrasi serta leher dan batang tubuh yang sangat kokoh. Ekornya hampir setengah dari panjang keseluruhan dinosaurus. Ekor panjang mungkin bertindak sebagai penyeimbang dan mekanisme kompensasi pergeseran pusat gravitasi makhluk tersebut. Tungkai belakang ornithischia awal menunjukkan bahwa tibia jauh lebih panjang daripada tulang paha, suatu ciri yang menunjukkan bahwa ornithischia awal beradaptasi dengan bipedalitas, dan merupakan pelari cepat
+    </string>
+
+    <string name="detail_family4">
+        sekelompok dinosaurus herbivora berparuh yang tumbuh subur di tempat yang sekarang berada di Amerika Utara , Eropa , dan Asia , pada Zaman Kapur , meskipun bentuk nenek moyangnya hidup lebih awal, pada zaman Jura . Ceratopsian paling awal yang diketahui, Yinlong downsi , hidup antara 161,2 dan 155,7 juta tahun yang lalu.
+        Triceratops sejauh ini merupakan ceratopsian yang paling dikenal masyarakat umum. Biasanya nama genus ceratopsian diakhiri dengan " -ceratops ", meskipun hal ini tidak selalu terjadi. Salah satu genera pertama yang diberi nama adalah Ceratops sendiri, yang meminjamkan namanya kepada kelompok tersebut, meskipun saat ini dianggap sebagai nomen dubium karena sisa-sisa fosilnya tidak memiliki ciri khas yang tidak juga ditemukan pada ceratopsia lainnya.
+    </string>
+
+    <string name="detail_family5">
+        Hadrosauridae adalah famili dinosaurus yang tergolong ke dalam ordo Ornithischia. Dinosaurus ini dikenal dengan julukan "dinosaurus berparuh bebek" karena moncong mereka tampak datar dan mirip dengan paruh bebek. Di dalam famili ini terdapat hewan-hewan ornithopoda seperti Edmontosaurus dan Parasaurolophus.
+        Dinosaurus ini merupakan herbivora yang hidup pada zaman Kapur Akhir di wilayah yang kini telah menjadi benua Asia, Eropa, Antarktika, Amerika Selatan, dan Amerika Utara
+        Mereka merupakan keturunan dinosaurus Iguanodontia dari zaman Jura Akhir/Kapur Awal.
+    </string>
+
+    <string name="detail_family6">
+        Sauropoda adalah infraordo dinosaurus saurischia. Mereka memiliki leher yang amat panjang, ekor yang panjang, kepala yang kecil (bila dibandingkan dengan ukuran tubuh secara keseluruhan), kaki yang tebal dan berbentuk seperti pilar, serta gigi yang seperti pasak.
+    </string>
+
+    <string name="detail_family7">
+        Di ambil dari bahasa Latin carno [carnis] ("daging") dan taurus ("banteng"), nama Carnotaurus berarti "banteng pemakan daging". Carnotaurus adalah keturunan dari Abelisauridae, sekelompok besar theropoda yang mengisi peran sebagai pemangsa utama di bagian selatan dataran Gondwana selama akhir periode Cretaceous.
+    </string>
+
+    <string name="detail_family8">
+        Ceratosaurus mengikuti rencana tubuh tipikal untuk dinosaurus theropoda besar.[1] Ceratosaurus adalah dinosaurus biped, bergerak dengan kaki belakang yang kuat, sementara lengannya berkurang panjangnya. Spesimen USNM 4735, kerangka yang pertama ditemukan dan holotipe Ceratosaurus nasicornis, adalah individual yang memiliki panjang 5 m (16 ft) atau 6 m (20 ft) menurut sumber terpisah.[2]:115[3] Whether this animal was fully grown is not clear
+    </string>
+
+    <string name="detail_ducati">
+        Menjadi superbike yang akan diproduksi secara terbatas, harga Ducati Superleggera V4 menjadi pertanyaan banyak pecinta otomotif. Pasalnya, motor buatan Italia ini menjadi mahakarya para insinyur Ducati karena menggunakan beragam fitur dan teknologi aerodinamis standar MotoGP.
+        Ducati Superleggera V4 ini adalah sepeda motor produksi pabrikan pertama di dunia yang seluruh struktur penahan bebannya dibuat dari serat karbon, termasuk sasis, subframe, velg, dan lengan ayunnya.
+        Pada bagian aerodinamika, ada winglet degan sudut tajam dan menyikut di dekat body fairing. Winglet ini diyakini mampu meningkatkan stabilitas ketika melahap tikungan atau berakselerasi saat kecepatan 270 km/jam. Motor ini memiliki bobot total 159 kilogram untuk model standar dan 152 kilogram untuk tipe racing. Bisa dibilang motor ini sangatlah ringan.
+    </string>
+
+    <string name="detail_energica">
+        Energica EGO muncul di EICMA pada tahun 2013 . Ini kemudian menjadi puncak dari kompetisi balap listrik selama bertahun-tahun, dengan banyak kemenangan termasuk Kejuaraan Eropa 2010 pada kompetisi TTXGP nol karbon pertama dan runner-up Kejuaraan Dunia TTXGP 2011.
+        Dengan motor EMCE dan inverter baru, kami melakukannya lagi – menambahkan tidak hanya tenaga tetapi juga jangkauan 10% pada kecepatan lebih tinggi, dan EGO+ versi 2023 akan menampilkan torsi 222Nm yang ditingkatkan (+7Nm, yang berarti tambahan tenaga roda sebesar 35Nm ).
+        Pada tahun 2018 Dorna memilih Energica menjadi pabrikan tunggal untuk Piala Dunia FIM Enel MotoE™ , peran yang dipenuhi perusahaan hingga akhir musim 2022. Balapan serba listrik di sirkuit ikonik MotoGP di seluruh Eropa ini menampilkan 12 tim internasional, menurunkan 18 pilot balap dengan mesin balap EGO Corsa yang dipersiapkan secara identik
+    </string>
+
+    <string name="nim">11S21005</string>
+    <string name="nama">Tesalonika Aprisda Sitopu</string>
+</resources>
