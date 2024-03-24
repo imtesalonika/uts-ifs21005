@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string name="deskripsi_spinosaurus">
+        Spinosaurus adalah dinosaurus Carnosauria yang hidup pada periode Kapur, sekitar 112 hingga 93 juta tahun yang lalu, di wilayah yang sekarang menjadi Afrika Utara. Mereka dikenal dengan sail yang terletak di atas punggungnya.
+     </string>
+
+    <string name="karakteristik_spinosaurus">
+         Spinosaurus memiliki tubuh yang besar dengan sail yang terbuat dari jaringan tulang di bagian punggungnya. Mereka juga memiliki rahang yang panjang dan sempit, serta gigi-gigi yang tajam untuk menangkap ikan dan mungkin juga hewan-hewan lain.
+    </string>
+
+    <string name="kelompok_spinosaurus">Dinosaurus Spinosaurus.</string>
+    <string name="habitat_spinosaurus">Mendiami daerah rawa-rawa dan sungai di Afrika Utara.</string>
+    <string name="makanan_spinosaurus"> Karnivora, memakan ikan dan mungkin juga hewan-hewan herbivora dan karnivora lainnya.</string>
+    <string name="panjang_spinosaurus">Sekitar 12-15 meter.</string>
+    <string name="tinggi_spinosaurus"> Sekitar 4-5 meter pada pinggul.</string>
+    <string name="bobot_spinosaurus">Sekitar 6.000 hingga 7.000 kilogram.</string>
+
+    <string name="kelemahan_spinosaurus">
+        Meskipun memiliki ukuran yang besar dan cakar yang tajam, Spinosaurus mungkin rentan terhadap serangan predator lain atau masalah dalam mencari mangsa jika habitatnya terganggu.
+    </string>
+
+</resources>

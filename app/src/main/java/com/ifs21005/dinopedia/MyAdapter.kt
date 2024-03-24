@@ -7,29 +7,33 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.ifs21005.myrecycleview.R
 
 class MyAdapter (val listObject : ArrayList<MyObjects>) : RecyclerView.Adapter<MyAdapter.MyViewHolder> () {
     inner class MyViewHolder (objectView : View) : RecyclerView.ViewHolder(objectView),
         View.OnClickListener {
-        var gambarObjects : ImageView
-        var namaObjects : TextView
-        var deskripsiObjects : TextView
+        val gambarObjectsView : ImageView
+        val namaObjectsView : TextView
+        val deskripsiObjectsView : TextView
 
         init {
-            gambarObjects = objectView.findViewById(R.id.imageView)
-            namaObjects = objectView.findViewById(R.id.nama_objects)
-            deskripsiObjects = objectView.findViewById(R.id.deskripsi)
+            gambarObjectsView = objectView.findViewById(R.id.gambar_item_object)
+            namaObjectsView = objectView.findViewById(R.id.nama_objects)
+            deskripsiObjectsView = objectView.findViewById(R.id.deskripsi)
             objectView.setOnClickListener (this)
         }
 
         override fun onClick(v: View?) {
             val position = adapterPosition
             val intent = Intent(v!!.context, DetailObjectActivity::class.java).apply {
-                putExtra("gambarObject", listObject[position].gambarObject)
-                putExtra("namaObject", listObject[position].namaObject)
-                putExtra("deskripsiObject", listObject[position].deskripsiObject)
-                putExtra("detailObject", listObject[position].detailObject)
+                putExtra("nama", listObject[position].namaObjects)
+                putExtra("deskripsi", listObject[position].deskripsiObjects)
+                putExtra("periodeHidup", listObject[position].periodeHidupObjects)
+                putExtra("karakteristikFisik", listObject[position].karakteristikObjects)
+                putExtra("habitatDanLingkungan", listObject[position].habitatDanLingkunganObjects)
+                putExtra("perilaku", listObject[position].perilakuObjects)
+                putExtra("klasifikasi", listObject[position].klasifikasiObjects)
+                putExtra("gambarObject", listObject[position].gambarObjects)
+                putParcelableArrayListExtra("listDinosaurus", listObject[position].listDinosaurus)
             }
             v.context.startActivity(intent)
         }
@@ -47,8 +51,8 @@ class MyAdapter (val listObject : ArrayList<MyObjects>) : RecyclerView.Adapter<M
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.namaObjects.setText(listObject[position].namaObject)
-        holder.deskripsiObjects.setText(listObject[position].deskripsiObject)
-        holder.gambarObjects.setImageResource(listObject[position].gambarObject)
+        holder.namaObjectsView.text = listObject[position].namaObjects
+        holder.deskripsiObjectsView.text = listObject[position].deskripsiObjects
+        holder.gambarObjectsView.setImageResource(listObject[position].gambarObjects)
     }
 }

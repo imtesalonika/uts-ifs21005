@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_edmontosaurus">
+        Edmontosaurus adalah dinosaurus Hadrosauridae yang hidup pada periode Kapur, sekitar 73 hingga 66 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Mereka merupakan salah satu hadrosauridae terbesar yang pernah hidup.
+    </string>
+
+    <string name="karakteristik_edmontosaurus">
+        Edmontosaurus memiliki tubuh yang besar dengan kaki yang kuat, dan mereka sering berjalan bipedal atau kuadrupedal. Mereka memiliki rahang yang kuat dengan gigi-gigi datar yang digunakan untuk mengunyah tanaman.
+    </string>
+
+    <string name="kelompok_edmontosaurus">Dinosaurus Hadrosauridae.</string>
+    <string name="habitat_edmontosaurus">Mendiami daerah dataran rendah, daerah rawa-rawa, dan dataran banjir di Amerika Utara.</string>
+    <string name="makanan_edmontosaurus">Herbivora, memakan berbagai jenis tanaman rendah, semak-semak, dan mungkin paku-pakuan.</string>
+    <string name="panjang_edmontosaurus">Sekitar 12-13 meter.</string>
+    <string name="tinggi_edmontosaurus">Sekitar 4-5 meter pada pinggul.</string>
+    <string name="bobot_edmontosaurus">Sekitar 3.000 hingga 5.000 kilogram.</string>
+
+    <string name="kelemahan_edmontosaurus">
+        Meskipun memiliki ukuran tubuh yang besar, Edmontosaurus mungkin rentan terhadap predator yang cerdas dan gesit.
+    </string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_mamenchisaurus">
+        Mamenchisaurus adalah dinosaurus Sauropoda yang hidup pada periode Jura, sekitar 160 hingga 145 juta tahun yang lalu, di wilayah yang sekarang menjadi Cina. Mereka dikenal dengan leher yang sangat panjang yang membantu mereka mencapai tanaman tinggi.
+     </string>
+
+    <string name="karakteristik_mamenchisaurus">
+        Mamenchisaurus memiliki leher yang sangat panjang, bahkan lebih panjang daripada tubuhnya sendiri. Leher yang panjang ini memungkinkan mereka mencapai tanaman-tanaman tinggi di atas pohon.
+    </string>
+
+    <string name="kelompok_mamenchisaurus">Dinosaurus Sauropoda.</string>
+    <string name="habitat_mamenchisaurus">Mendiami daerah hutan dan dataran rendah di Cina.</string>
+    <string name="makanan_mamenchisaurus">Herbivora, memakan berbagai jenis tanaman tinggi dan dedaunan.</string>
+    <string name="panjang_mamenchisaurus">Sekitar 21-26 meter.</string>
+    <string name="tinggi_mamenchisaurus">Sekitar 8-10 meter pada punggung.</string>
+    <string name="bobot_mamenchisaurus">Sekitar 20.000 hingga 30.000 kilogram.</string>
+
+    <string name="kelemahan_mamenchisaurus">
+         Meskipun memiliki leher yang panjang untuk mencapai makanan, Mamenchisaurus mungkin rentan terhadap predator yang cerdas dan gesit karena tubuh mereka yang besar dan kecepatan yang lambat.
+    </string>
+
+</resources>

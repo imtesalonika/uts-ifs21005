@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ifs21005.dinopedia.DetailObjectActivity">
+    tools:context="com.ifs21005.dinopedia.DetailDinosaurusActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -27,10 +27,10 @@
             android:src="@drawable/baseline_arrow_back_24"/>
 
         <TextView
-            android:id="@+id/nama_object_toolbar"
+            android:id="@+id/nama_dinosaurus_toolbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="nama object"
+            android:text="nama dinosaurus"
             android:textColor="#fff"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -62,7 +62,7 @@
             android:paddingBottom="70dp"
             android:layout_height="wrap_content">
             <ImageView
-                android:id="@+id/gambar_object_detail"
+                android:id="@+id/gambar_dinosaurus"
                 android:layout_width="200dp"
                 android:layout_marginTop="24dp"
                 android:layout_height="200dp"
@@ -72,7 +72,7 @@
                 tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
-                android:id="@+id/nama_famili"
+                android:id="@+id/nama_dinosaurus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
@@ -81,10 +81,10 @@
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/gambar_object_detail" />
+                app:layout_constraintTop_toBottomOf="@+id/gambar_dinosaurus" />
 
             <TextView
-                android:id="@+id/deskripsi_famili"
+                android:id="@+id/deskripsi_dinosaurus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -93,10 +93,10 @@
                 android:text="Deskripsi"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/nama_famili" />
+                app:layout_constraintTop_toBottomOf="@+id/nama_dinosaurus" />
 
             <TextView
-                android:id="@+id/isi_deskripsi"
+                android:id="@+id/isi_deskripsi_dinosaurus"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
@@ -106,157 +106,192 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/deskripsi_famili" />
+                app:layout_constraintTop_toBottomOf="@id/deskripsi_dinosaurus" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Periode Hidup"
-                android:id="@+id/periode_hidup"
-                app:layout_constraintTop_toBottomOf="@id/isi_deskripsi"
+                android:text="Karakteristik"
+                android:id="@+id/karakteristik_dinosaurus"
+                app:layout_constraintTop_toBottomOf="@id/isi_deskripsi_dinosaurus"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="15dp"
                 android:textStyle="bold"/>
 
             <TextView
-                android:id="@+id/isi_periode_hidup"
+                android:id="@+id/isi_karakteristik"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="24dp"
-                android:text="Isi Periode Hidup"
+                android:text="Isi Karakteristik"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/periode_hidup" />
+                app:layout_constraintTop_toBottomOf="@id/karakteristik_dinosaurus" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/karakteristik_fisik"
+                android:id="@+id/kelompok_dinosaurus"
                 android:layout_marginStart="24dp"
-                app:layout_constraintTop_toBottomOf="@id/isi_periode_hidup"
-                android:text="Karakteristik Fisik"
+                app:layout_constraintTop_toBottomOf="@id/isi_karakteristik"
+                android:text="Kelompok"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginTop="15dp"
                 android:textStyle="bold"/>
 
             <TextView
-                android:id="@+id/isi_karakteristik_fisik"
+                android:id="@+id/isi_kelompok_dinosaurus"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="24dp"
-                android:text="Isi Karakteristik Fisik"
+                android:text="Isi Kelompok"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/karakteristik_fisik" />
+                app:layout_constraintTop_toBottomOf="@id/kelompok_dinosaurus" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Habitat dan Lingkungan"
+                android:text="Habitat"
                 android:textStyle="bold"
-                android:id="@+id/habitat_lingkungan"
+                android:id="@+id/habitat_dinosaurus"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginTop="15dp"
                 android:layout_marginStart="24dp"
-                app:layout_constraintTop_toBottomOf="@id/isi_karakteristik_fisik"/>
+                app:layout_constraintTop_toBottomOf="@id/isi_kelompok_dinosaurus"/>
 
             <TextView
-                android:id="@+id/isi_habitat_lingkungan"
+                android:id="@+id/isi_habitat_dinosaurus"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="24dp"
-                android:text="Isi Habitat dan Lingkungan"
+                android:text="Isi Habitat"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/habitat_lingkungan" />
+                app:layout_constraintTop_toBottomOf="@id/habitat_dinosaurus" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Perilaku"
+                android:text="Makanan"
                 android:textStyle="bold"
                 android:layout_marginTop="15dp"
                 android:layout_marginStart="24dp"
-                android:id="@+id/perilaku"
-                app:layout_constraintTop_toBottomOf="@id/isi_habitat_lingkungan"
+                android:id="@+id/makanan_dinosaurus"
+                app:layout_constraintTop_toBottomOf="@id/isi_habitat_dinosaurus"
                 app:layout_constraintStart_toStartOf="parent"/>
 
             <TextView
-                android:id="@+id/isi_perilaku"
+                android:id="@+id/isi_makanan_dinosaurus"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="24dp"
-                android:text="Isi Perilaku"
+                android:text="Isi Makanan"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/perilaku" />
+                app:layout_constraintTop_toBottomOf="@id/makanan_dinosaurus" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Klasifikasi"
+                android:text="Panjang"
                 android:textStyle="bold"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="15dp"
-                android:id="@+id/klasifikasi"
-                app:layout_constraintTop_toBottomOf="@id/isi_perilaku"
+                android:id="@+id/panjang_dinosaurus"
+                app:layout_constraintTop_toBottomOf="@id/isi_makanan_dinosaurus"
                 app:layout_constraintStart_toStartOf="parent"/>
 
             <TextView
-                android:id="@+id/isi_klasifikasi"
+                android:id="@+id/isi_panjang_dinosaurus"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="24dp"
-                android:text="Isi Klasifikasi"
+                android:text="Isi Panjang"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/klasifikasi" />
+                app:layout_constraintTop_toBottomOf="@id/panjang_dinosaurus" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Contoh Dinosaurus : "
+                android:text="Tinggi"
                 android:textStyle="bold"
                 android:layout_marginStart="24dp"
-                android:id="@+id/contoh_dinosaurus"
+                android:id="@+id/tinggi_dinosaurus"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginTop="15dp"
-                app:layout_constraintTop_toBottomOf="@id/isi_klasifikasi"/>
+                app:layout_constraintTop_toBottomOf="@id/isi_panjang_dinosaurus"/>
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/dinosaurus_recycleview"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:paddingHorizontal="24dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/contoh_dinosaurus" />
-
-            <Button
-                android:id="@+id/tombol_see_more"
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="See More"
-                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Isi Tinggi"
+                android:layout_marginStart="24dp"
+                android:id="@+id/isi_tinggi_dinosaurus"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/dinosaurus_recycleview" />
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toBottomOf="@id/tinggi_dinosaurus"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bobot"
+                android:textStyle="bold"
+                android:layout_marginStart="24dp"
+                android:id="@+id/bobot_dinosaurus"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toBottomOf="@id/isi_tinggi_dinosaurus"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isi Bobot"
+                android:layout_marginStart="24dp"
+                android:id="@+id/isi_bobot_dinosaurus"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toBottomOf="@id/bobot_dinosaurus"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelemahan"
+                android:textStyle="bold"
+                android:layout_marginStart="24dp"
+                android:id="@+id/kelemahan_dinosaurus"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toBottomOf="@id/isi_bobot_dinosaurus"/>
+
+            <TextView
+                android:id="@+id/isi_kelemahan_dinosaurus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="15dp"
+                android:text="Isi Kelemahan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/kelemahan_dinosaurus" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

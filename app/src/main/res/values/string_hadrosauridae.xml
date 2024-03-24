@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_hadrosauridae">
+        Hadrosauridae, juga dikenal sebagai dinosaurus bebek, adalah kelompok dinosaurus ornithopoda yang memiliki ciri khas berupa rahang bawah yang khas, yang dianggap memiliki struktur yang memungkinkan mereka mengunyah makanan dengan efisien.
+     </string>
+
+    <string name="periode_hidup_hadrosauridae">
+        Hadrosauridae hidup pada periode Kapur, sekitar 90 hingga 65 juta tahun yang lalu.
+    </string>
+
+    <string name="karakteristik_fisik_hadrosauridae">
+        Hadrosauridae memiliki tubuh besar dengan leher dan ekor yang panjang. Salah satu ciri utama mereka adalah rahang bawah yang kuat, yang membentuk struktur mirip paruh bebek yang berguna untuk mencabut, mengunyah, dan mencerna makanan tumbuhan.
+    </string>
+
+    <string name="habitat_dan_lingkungan_hadrosauridae">
+        Hadrosauridae hidup di berbagai habitat, termasuk dataran rendah, hutan, dan daerah berawa. Mereka tersebar luas di seluruh dunia pada masa hidupnya.
+    </string>
+
+    <string name="perilaku_hadrosauridae">
+        Hadrosauridae umumnya hidup dalam kelompok besar, mungkin untuk melindungi diri dari predator dan mencari makanan. Beberapa penelitian menunjukkan bahwa mereka mungkin memiliki perilaku migrasi untuk mengikuti musim atau mencari sumber makanan yang berlimpah.
+    </string>
+
+    <string name="klasifikasi_hadrosauridae">
+        Hadrosauridae termasuk dalam subordo Ornithopoda dan dikelompokkan bersama-sama dalam famili yang sama. Salah satu genus paling terkenal dari Hadrosauridae adalah Parasaurolophus, Edmontosaurus, dan Maiasaura.
+    </string>
+</resources>

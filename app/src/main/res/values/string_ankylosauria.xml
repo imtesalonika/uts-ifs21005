@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deskripsi_ankylosauria">
+        Ankylosauria adalah kelompok dinosaurus bertubuh rendah yang dilengkapi dengan pelindung tulang atau plak serta cakar yang kuat. Mereka memiliki tubuh yang relatif lebar dan pendek, dengan pelindung tulang atau plak yang menutupi bagian atas tubuh mereka untuk perlindungan.
+    </string>
+
+    <string name="periode_hidup_ankylosauria">
+        Ankylosauria hidup pada periode Kapur, sekitar 125 hingga 66 juta tahun yang lalu.
+    </string>
+
+    <string name="karakteristik_fisik_ankylosauria">
+        Karakteristik utama Ankylosauria adalah pelindung tulang yang membentuk cangkang keras yang menutupi bagian atas tubuh mereka, serta cakar yang kuat yang digunakan untuk bertahan dari serangan predator. Mereka juga memiliki ekor yang dilengkapi dengan tulang-tulang yang berfungsi sebagai senjata untuk membela diri.
+    </string>
+
+    <string name="habitat_dan_lingkungan_ankylosauria">
+        Ankylosauria biasanya mendiami daerah-daerah yang terdiri dari hutan-hutan dan dataran rendah. Mereka tersebar luas di berbagai wilayah yang sekarang menjadi bagian dari Amerika Utara, Eropa, Asia, dan Afrika.
+    </string>
+
+    <string name="perilaku_ankylosauria">
+        Ankylosauria cenderung bersifat pemakan tumbuhan dan mungkin memiliki perilaku herbivora yang berkeliaran mencari makanan. Mereka juga mungkin memiliki perilaku defensif yang agresif ketika terancam oleh predator, menggunakan pelindung tulang mereka dan ekor berduri untuk melindungi diri.
+    </string>
+
+    <string name="klasifikasi_ankylosauria">
+        Ankylosauria termasuk dalam kelompok Ornithischia dan merupakan bagian dari infrakelas Thyreophora. Mereka terbagi menjadi beberapa famili dan genus yang berbeda, termasuk Ankylosauridae dan Nodosauridae.
+    </string>
+</resources>

@@ -1,33 +1,27 @@
 package com.ifs21005.dinopedia
 
-import android.content.Intent
 import android.os.Bundle
-import android.widget.ImageButton
+import android.widget.ImageView
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() {
+class AllDinosaurus : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        val recyclerView: RecyclerView = findViewById(R.id.recyclerview)
-        val buttonAbout : ImageButton = findViewById(R.id.button_profile)
-
-        buttonAbout.setOnClickListener {
-            startActivity(Intent(this, AboutActivity::class.java))
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_all_dinosaurus)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
         }
 
-        recyclerView.layoutManager = LinearLayoutManager(
-            this,
-            LinearLayoutManager.VERTICAL,
-            false
-        )
-
-        val listObjects: ArrayList<MyObjects> = ArrayList()
-
-        val listDinosaurusTheropoda : ArrayList<Dinosaurus> = ArrayList()
+        val listDinosaurus : ArrayList<Dinosaurus> = ArrayList()
 
         val tyrannosaurusRex = Dinosaurus(
             R.drawable.tyran,
@@ -57,23 +51,6 @@ class MainActivity : AppCompatActivity() {
             resources.getString(R.string.kelemahan_velociraptor)
         )
 
-        listDinosaurusTheropoda.add(tyrannosaurusRex)
-        listDinosaurusTheropoda.add (velociraptor)
-
-        val theropoda = MyObjects(
-            R.drawable.family1,
-            "Theropoda",
-            resources.getString(R.string.deskripsi_theropoda),
-            resources.getString(R.string.periode_hidup_theropoda),
-            resources.getString(R.string.karakteristik_fisik_theropoda),
-            resources.getString(R.string.habitat_dan_lingkungan_theropoda),
-            resources.getString(R.string.perilaku_theropoda),
-            resources.getString(R.string.klasifikasi_theropoda),
-            listDinosaurusTheropoda
-        )
-
-        val listDinosaurusSauropodomorpha : ArrayList<Dinosaurus> = ArrayList()
-
         val diplodocus = Dinosaurus(
             R.drawable.diplodocus,
             "Diplodocus",
@@ -101,23 +78,6 @@ class MainActivity : AppCompatActivity() {
             resources.getString(R.string.bobot_brachiosaurus),
             resources.getString(R.string.kelemahan_brachiosaurus)
         )
-
-        listDinosaurusSauropodomorpha.add(diplodocus)
-        listDinosaurusSauropodomorpha.add(brachiosaurus)
-
-        val sauropodomorpha = MyObjects(
-            R.drawable.family2,
-            "Sauropodomorpha",
-            resources.getString(R.string.deskripsi_sauropodomorpha),
-            resources.getString(R.string.periode_hidup_sauropodomorpha),
-            resources.getString(R.string.karakteristik_fisik_sauropodomorpha),
-            resources.getString(R.string.habitat_dan_lingkungan_sauropodomorpha),
-            resources.getString(R.string.perilaku_sauropodomorpha),
-            resources.getString(R.string.klasifikasi_sauropodomorpha),
-            listDinosaurusSauropodomorpha
-        )
-
-        val listDinosaurusOrnithischia: ArrayList<Dinosaurus> = ArrayList()
 
         val triceraptos = Dinosaurus(
             R.drawable.triceratops,
@@ -147,23 +107,6 @@ class MainActivity : AppCompatActivity() {
             resources.getString(R.string.kelemahan_stegosaurus)
         )
 
-        listDinosaurusOrnithischia.add(triceraptos)
-        listDinosaurusOrnithischia.add(stegosaurus)
-
-        val ornithischia = MyObjects(
-            R.drawable.family3,
-            "Ornithischia",
-            resources.getString(R.string.deskripsi_ornithischia),
-            resources.getString(R.string.periode_hidup_ornithischia),
-            resources.getString(R.string.karakteristik_fisik_ornithischia),
-            resources.getString(R.string.habitat_dan_lingkungan_ornithischia),
-            resources.getString(R.string.perilaku_ornithischia),
-            resources.getString(R.string.klasifikasi_ornithischia),
-            listDinosaurusOrnithischia
-        )
-
-        val listDinosaurusCeratopsidae: ArrayList<Dinosaurus> = ArrayList()
-
         val chasmosaurus = Dinosaurus(
             R.drawable.chasmosaurus,
             "Chasmosauruus",
@@ -191,23 +134,6 @@ class MainActivity : AppCompatActivity() {
             resources.getString(R.string.bobot_styracosaurus),
             resources.getString(R.string.kelemahan_styracosaurus)
         )
-
-        listDinosaurusCeratopsidae.add(chasmosaurus)
-        listDinosaurusCeratopsidae.add(styracosaurus)
-
-        val ceratopsidae = MyObjects(
-            R.drawable.family4,
-            "Ceratopsidae",
-            resources.getString(R.string.deskripsi_ceratopsidae),
-            resources.getString(R.string.periode_hidup_ceratopsidae),
-            resources.getString(R.string.karakteristik_fisik_ceratopsidae),
-            resources.getString(R.string.habitat_dan_lingkungan_ceratopsidae),
-            resources.getString(R.string.perilaku_ceratopsidae),
-            resources.getString(R.string.klasifikasi_ceratopsidae),
-            listDinosaurusCeratopsidae
-        )
-
-        val listDinosaurusHadrosauridae: ArrayList<Dinosaurus> = ArrayList()
 
         val parasaurolophus = Dinosaurus(
             R.drawable.parasaurolophus,
@@ -237,23 +163,6 @@ class MainActivity : AppCompatActivity() {
             resources.getString(R.string.kelemahan_edmontosaurus)
         )
 
-        listDinosaurusHadrosauridae.add(parasaurolophus)
-        listDinosaurusHadrosauridae.add(edmontosaurus)
-
-        val  hadrosauridae = MyObjects(
-            R.drawable.family5,
-            "Hadrosauridae",
-            resources.getString(R.string.deskripsi_hadrosauridae),
-            resources.getString(R.string.periode_hidup_hadrosauridae),
-            resources.getString(R.string.karakteristik_fisik_hadrosauridae),
-            resources.getString(R.string.habitat_dan_lingkungan_hadrosauridae),
-            resources.getString(R.string.perilaku_hadrosauridae),
-            resources.getString(R.string.klasifikasi_hadrosauridae),
-            listDinosaurusHadrosauridae
-        )
-
-        val listDinosaurusSauropoda: ArrayList<Dinosaurus> = ArrayList()
-
         val apatosaurus = Dinosaurus(
             R.drawable.apatosaurus,
             "Apatosaurus",
@@ -281,23 +190,6 @@ class MainActivity : AppCompatActivity() {
             resources.getString(R.string.bobot_mamenchisaurus),
             resources.getString(R.string.kelemahan_mamenchisaurus)
         )
-
-        listDinosaurusSauropoda.add(apatosaurus)
-        listDinosaurusSauropoda.add(mamenchisaurus)
-
-        val sauropoda = MyObjects(
-            R.drawable.family6,
-            "Sauropoda",
-            resources.getString(R.string.deskripsi_sauropoda),
-            resources.getString(R.string.periode_hidup_sauropoda),
-            resources.getString(R.string.karakteristik_fisik_sauropoda),
-            resources.getString(R.string.habitat_dan_lingkungan_sauropoda),
-            resources.getString(R.string.perilaku_sauropoda),
-            resources.getString(R.string.klasifikasi_sauropoda),
-            listDinosaurusSauropoda
-        )
-
-        val listDinosaurusCarnosauria: ArrayList<Dinosaurus> = ArrayList()
 
         val allosaurus = Dinosaurus(
             R.drawable.allosaurus,
@@ -327,11 +219,6 @@ class MainActivity : AppCompatActivity() {
             resources.getString(R.string.kelemahan_spinosaurus)
         )
 
-        listDinosaurusCarnosauria.add(allosaurus)
-        listDinosaurusCarnosauria.add(spinosaurus)
-
-        val listDinosaurusAnkylosauria: ArrayList<Dinosaurus> = ArrayList()
-
         val ankylosaurus= Dinosaurus(
             R.drawable.ankylosaurus,
             "Ankylosaurus",
@@ -360,45 +247,39 @@ class MainActivity : AppCompatActivity() {
             resources.getString(R.string.kelemahan_euoplocephalus)
         )
 
-        listDinosaurusAnkylosauria.add(ankylosaurus)
-        listDinosaurusAnkylosauria.add(euoplocephalus)
+        listDinosaurus.add(tyrannosaurusRex)
+        listDinosaurus.add(velociraptor)
+        listDinosaurus.add(diplodocus)
+        listDinosaurus.add(brachiosaurus)
+        listDinosaurus.add(triceraptos)
+        listDinosaurus.add(stegosaurus)
+        listDinosaurus.add(chasmosaurus)
+        listDinosaurus.add(styracosaurus)
+        listDinosaurus.add(parasaurolophus)
+        listDinosaurus.add(edmontosaurus)
+        listDinosaurus.add(apatosaurus)
+        listDinosaurus.add(mamenchisaurus)
+        listDinosaurus.add(allosaurus)
+        listDinosaurus.add(spinosaurus)
+        listDinosaurus.add(ankylosaurus)
+        listDinosaurus.add(euoplocephalus)
 
-        val carnosauria = MyObjects(
-            R.drawable.family7,
-            "Carnosauria",
-            resources.getString(R.string.deskripsi_carnosauria),
-            resources.getString(R.string.periode_hidup_carnosauria),
-            resources.getString(R.string.karakteristik_fisik_carnosauria),
-            resources.getString(R.string.habitat_dan_lingkungan_carnosauria),
-            resources.getString(R.string.perilaku_carnosauria),
-            resources.getString(R.string.klasifikasi_carnosauria),
-            listDinosaurusCarnosauria
+        val recyclerView: RecyclerView = findViewById(R.id.recyclerview_all_dinosaurus)
+
+        recyclerView.layoutManager = LinearLayoutManager(
+            this,
+            LinearLayoutManager.VERTICAL,
+            false
         )
 
-        val ankylosauria= MyObjects(
-            R.drawable.family8,
-            "Ankylosauria",
-            resources.getString(R.string.deskripsi_ankylosauria),
-            resources.getString(R.string.periode_hidup_ankylosauria),
-            resources.getString(R.string.karakteristik_fisik_ankylosauria),
-            resources.getString(R.string.habitat_dan_lingkungan_ankylosauria),
-            resources.getString(R.string.perilaku_ankylosauria),
-            resources.getString(R.string.klasifikasi_ankylosauria),
-            listDinosaurusAnkylosauria
-
-        )
-
-        listObjects.add(theropoda)
-        listObjects.add(sauropodomorpha)
-        listObjects.add(ornithischia)
-        listObjects.add(ceratopsidae)
-        listObjects.add(hadrosauridae)
-        listObjects.add(sauropoda)
-        listObjects.add(carnosauria)
-        listObjects.add(ankylosauria)
-
-        val adapter = MyAdapter(listObjects)
-
+        val adapter = DinosaurusItemAdapter(listDinosaurus)
         recyclerView.adapter = adapter
+
+        val tombolBack : ImageView = findViewById(R.id.tombol_back_all_dinosaurus)
+
+        tombolBack.setOnClickListener {
+            finish()
+        }
     }
+
 }

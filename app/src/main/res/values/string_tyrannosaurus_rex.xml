@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deskripsi_tyrannosaurus_rex">
+        Tyrannosaurus rex adalah dinosaurus theropoda terkenal yang hidup pada periode Kapur sekitar 68 hingga 66 juta tahun yang lalu di Amerika Utara. Mereka merupakan predator karnivora terbesar pada zamannya.
+    </string>
+
+    <string name="karakteristik_tyrannosaurus_rex">
+        Memiliki tubuh besar, cakar tajam, dan gigi-gigi yang besar dan kuat. Biasanya berjalan menggunakan kaki belakang yang kuat.
+    </string>
+    
+    <string name="kelompok_tyrannosaurus_rex">
+        Dinosaurus Theropoda
+    </string>
+
+    <string name="habitat_tyrannosaurus_rex">
+        Tersebar di berbagai wilayah di Amerika Utara, umumnya hidup di dataran rendah dan hutan.
+    </string>
+
+    <string name="makanan_tyrannosaurus_rex">
+        Carnivora, memangsa berbagai jenis dinosaurus herbivora dan kadang-kadang bangkai.
+    </string>
+
+    <string name="panjang_tyrannosaurus_rex">
+        Sekitar 12-13 meter.
+    </string>
+
+    <string name="tinggi_tyrannosaurus_rex">
+         Sekitar 4-6 meter pada pinggul.
+    </string>
+
+    <string name="bobot_tyrannosaurus_rex">
+        Sekitar 8.000 hingga 14.000 kilogram.
+    </string>
+
+    <string name="kelemahan_tyrannosaurus_rex">
+        Mungkin kecepatannya yang rendah dibandingkan dengan mangsa kecilnya.
+    </string>
+
+</resources>

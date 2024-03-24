@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deskripsi_theropoda">
+        Theropoda adalah ordo dari dinosaurus karnivora bipedal yang mencakup berbagai jenis predator terkenal seperti Tyrannosaurus rex dan Velociraptor. Mereka memiliki ciri khas seperti kaki yang panjang, cakar yang tajam, dan kepala yang besar dengan gigi tajam.
+    </string>
+
+    <string name="periode_hidup_theropoda">
+        Mereka hidup selama periode Mesozoikum, terutama selama periode Jura dan Kapur, sekitar 230 hingga 65 juta tahun yang lalu.
+    </string >
+
+    <string name="karakteristik_fisik_theropoda">
+        Karakteristik fisik Theropoda mencakup tubuh yang besar atau kecil, kaki yang panjang, lengan yang pendek (relatif), cakar yang tajam, dan gigi yang kuat dan tajam untuk memburu dan mengunyah mangsanya.
+    </string>
+
+    <string name="habitat_dan_lingkungan_theropoda">
+        Theropoda ditemukan di berbagai habitat, mulai dari padang rumput hingga hutan hujan, dan bahkan di daerah pantai. Mereka menyebar luas di seluruh dunia, mencakup berbagai lingkungan dari zaman dulu.
+    </string>
+
+    <string name="perilaku_theropoda">
+        Theropoda adalah predator yang aktif, berburu dengan menggunakan kecepatan, kecerdasan, dan cakar serta gigi yang tajam untuk menyerang mangsanya. Beberapa spesies Theropoda, seperti Velociraptor, diyakini memiliki perilaku sosial dan mungkin berburu secara berkelompok.
+    </string>
+
+    <string name="klasifikasi_theropoda">
+        Kingdom Animalia (Hewan), Filum Chordata (Chordata), Kelas Reptilia (Reptil), Ordo Saurischia (Saurischia), Subordo Theropoda (Theropoda).
+    </string>
+</resources>

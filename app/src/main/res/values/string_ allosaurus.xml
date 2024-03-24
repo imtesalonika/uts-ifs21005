@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string name="deskripsi_allosaurus">
+         Allosaurus adalah salah satu dinosaurus Carnosauria yang hidup pada periode Jura, sekitar 155 hingga 150 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara, Eropa, dan Afrika. Mereka adalah predator besar yang dominan pada zamannya.
+     </string>
+
+    <string name="karakteristik_allosaurus">
+         Allosaurus memiliki tubuh yang besar dan kuat dengan kaki yang panjang dan cakar yang tajam. Mereka memiliki kepala besar dengan gigi-gigi yang tajam untuk merobek daging.
+    </string>
+
+    <string name="kelompok_allosaurus">Dinosaurus Carnosauria.</string>
+    <string name="habitat_allosaurus">Mendiami berbagai jenis habitat, termasuk hutan, dataran rendah, dan daerah terbuka.</string>
+    <string name="makanan_allosaurus">Karnivora, memangsa berbagai jenis hewan herbivora dan mungkin juga dinosaurus lain.</string>
+    <string name="panjang_allosaurus">Sekitar 8-10 meter.</string>
+    <string name="tinggi_allosaurus">Sekitar 3-4 meter pada pinggul.</string>
+    <string name="bobot_allosaurus">Sekitar 2.000 hingga 3.000 kilogram.</string>
+
+    <string name="kelemahan_allosaurus">
+        Meskipun merupakan predator yang kuat, Allosaurus mungkin rentan terhadap serangan bersama oleh mangsa yang berkelompok atau predator lain yang lebih besar.
+    </string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deskripsi_sauropodomorpha">
+        Sauropodomorpha adalah ordo dinosaurus yang memiliki ciri khas berupa tubuh besar, leher panjang, dan ekor yang relatif pendek. Mereka merupakan herbivora besar yang umumnya hidup pada periode Mezozoikum.
+    </string>
+
+    <string name="periode_hidup_sauropodomorpha">
+        Periode Trias Akhir hingga Kapur Akhir, sekitar 230 hingga 66 juta tahun yang lalu.
+    </string>
+
+    <string name="karakteristik_fisik_sauropodomorpha">
+        Ciri khas utama Sauropodomorpha adalah tubuh besar dan berat, leher yang panjang, kaki yang kuat, dan ekor yang relatif pendek. Mereka memiliki gigi-gigi yang cocok untuk mengunyah tumbuhan.
+    </string>
+
+    <string name="habitat_dan_lingkungan_sauropodomorpha">
+        Sauropodomorpha biasanya hidup di daerah-daerah yang luas dengan vegetasi melimpah, seperti dataran rendah, dataran banjir, dan hutan-hutan daerah tropis dan subtropis.
+    </string>
+
+    <string name="perilaku_sauropodomorpha">
+        Sauropodomorpha umumnya hidup dalam kawanan untuk melindungi diri dari predator dan mencari makanan. Mereka mungkin memiliki perilaku migrasi untuk mencari sumber makanan yang berlimpah.
+    </string>
+
+    <string name="klasifikasi_sauropodomorpha">
+        Sauropodomorpha termasuk dalam kelompok Dinosaurus Ornithischia. Mereka dibagi menjadi beberapa famili, termasuk Diplodocidae, Brachiosauridae, dan lain-lain.
+    </string>
+
+</resources>

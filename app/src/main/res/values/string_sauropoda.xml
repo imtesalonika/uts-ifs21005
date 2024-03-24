@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_sauropoda">
+        Sauropoda adalah kelompok dinosaurus herbivora yang memiliki tubuh besar, leher panjang, ekor yang relatif pendek, dan kaki yang kuat. Mereka dikenal sebagai salah satu dinosaurus terbesar yang pernah ada.
+     </string>
+
+    <string name="periode_hidup_sauropoda">
+        Sauropoda hidup pada periode Jura, sekitar 201 hingga 145 juta tahun yang lalu.
+    </string>
+
+    <string name="karakteristik_fisik_sauropoda">
+        Ciri khas Sauropoda adalah tubuh besar dan berat, leher yang sangat panjang yang memungkinkan mereka mencapai tumbuhan yang tinggi, ekor yang relatif pendek, dan kaki yang kuat untuk menopang berat tubuh mereka.
+    </string>
+
+    <string name="habitat_dan_lingkungan_sauropoda">
+        Sauropoda mendiami berbagai habitat, termasuk hutan dataran rendah, dataran banjir, dan daerah terbuka. Mereka tersebar luas di seluruh dunia pada masa hidupnya.
+    </string>
+
+    <string name="perilaku_sauropoda">
+        Sauropoda mungkin memiliki perilaku migrasi untuk mencari makanan atau mengikuti musim. Beberapa penelitian juga menunjukkan bahwa mereka mungkin hidup dalam kelompok untuk melindungi diri dari predator.
+    </string>
+
+    <string name="klasifikasi_sauropoda">
+        Sauropoda termasuk dalam kelompok dinosaurus Saurischia dan subordo Sauropodomorpha. Mereka dibagi menjadi beberapa famili, termasuk Diplodocidae, Brachiosauridae, dan lain-lain, serta berbagai genus yang termasuk dalam masing-masing famili tersebut.
+    </string>
+</resources>

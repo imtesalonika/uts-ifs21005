@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deskripsi_ceratopsidae">
+        Ceratopsidae adalah sebuah famili dinosaurus yang dikenal karena ciri khas tanduk dan lempengan tanduk yang melengkung yang ada di tengkorak mereka. Mereka termasuk dalam kelompok Ornithischia dan banyak spesiesnya memiliki tubuh besar dan kuat.
+    </string>
+
+    <string name="periode_hidup_ceratopsidae">
+        Ceratopsidae hidup pada periode Kapur Akhir, sekitar 72 hingga 66 juta tahun yang lalu.
+    </string>
+
+    <string name="karakteristik_fisik_ceratopsidae">
+        Ciri khas Ceratopsidae adalah adanya tanduk dan lempengan tanduk yang melengkung pada tengkorak mereka. Mereka memiliki tubuh besar dengan empat kaki yang kuat, serta gigi-gigi yang cocok untuk mengunyah tumbuhan.
+    </string>
+
+    <string name="habitat_dan_lingkungan_ceratopsidae">
+        Ceratopsidae umumnya hidup di berbagai habitat, termasuk dataran rendah, dataran banjir, dan hutan-hutan daerah tropis dan subtropis. Mereka tersebar luas di wilayah yang sekarang merupakan bagian dari Amerika Utara dan Asia.
+    </string>
+
+    <string name="perilaku_ceratopsidae">
+        Meskipun perilaku Ceratopsidae masih diperdebatkan, beberapa spesies mungkin hidup dalam kawanan untuk melindungi diri dari predator dan mencari makanan. Mereka mungkin juga memiliki perilaku territorial untuk mempertahankan wilayah mereka.
+    </string>
+
+    <string name="klasifikasi_ceratopsidae">
+        Ceratopsidae termasuk dalam ordo Ornithischia dan subordo Ceratopsia. Mereka terbagi menjadi beberapa genera dan spesies, termasuk Triceratops, Styracosaurus, dan lain-lain.
+    </string>
+</resources>

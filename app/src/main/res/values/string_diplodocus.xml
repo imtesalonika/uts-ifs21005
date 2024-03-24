@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="deskripsi_diplodocus">
+            Diplodocus adalah salah satu jenis dinosaurus Sauropodomorpha yang hidup pada periode Jura, sekitar 154 hingga 150 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Mereka dikenal dengan leher dan ekor panjangnya.
+        </string>
+
+    <string name="karakteristik_diplodocus">
+        Memiliki tubuh besar dengan leher dan ekor yang panjang. Cenderung berjalan menggunakan empat kaki yang panjang dan kuat.
+    </string>
+
+    <string name="kelompok_diplodocus">Dinosaurus Sauropodomorpha.</string>
+    <string name="habitat_diplodocus">Mendiami daerah dataran rendah dan hutan yang luas.</string>
+    <string name="makanan_diplodocus">Herbivora, memakan dedaunan dan tanaman rendah.</string>
+    <string name="panjang_diplodocus">Sekitar 25-27 meter.</string>
+    <string name="tinggi_diplodocus">Sekitar 4,5-5,5 meter pada pinggul.</string>
+    <string name="bobot_diplodocus">Sekitar 11.000 hingga 15.000 kilogram.</string>
+    <string name="kelemahan_diplodocus">Ukurannya yang besar dan pergerakannya yang lambat mungkin membuatnya rentan terhadap predator.</string>
+
+</resources>

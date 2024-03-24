@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deskripsi_brachiosaurus">
+        Brachiosaurus adalah dinosaurus Sauropodomorpha yang hidup pada periode Jura, sekitar 154 hingga 153 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Mereka dikenal dengan leher yang panjang dan memanjang ke atas.
+    </string>
+
+    <string name="karakteristik_brachiosaurus">
+        Memiliki tubuh besar dengan leher yang sangat panjang, lebih tegak ke atas daripada ke samping. Kaki depannya lebih panjang daripada kaki belakangnya.
+    </string>
+
+    <string name="kelompok_brachiosaurus"> Dinosaurus Sauropodomorpha.</string>
+    <string name="habitat_brachiosaurus">Mendiami daerah dataran rendah, hutan, dan dataran banjir.</string>
+    <string name="makanan_brachiosaurus"> Herbivora, memakan dedaunan dan tanaman tinggi.</string>
+    <string name="panjang_brachiosaurus">Sekitar 23–26 meter.</string>
+    <string name="tinggi_brachiosaurus">Sekitar 9–12 meter pada punggung.</string>
+    <string name="bobot_brachiosaurus"> Sekitar 30.000 hingga 50.000 kilogram.</string>
+
+    <string name="kelemahan_brachiosaurus">
+        Ukurannya yang besar mungkin membuatnya rentan terhadap predator, dan struktur tubuhnya mungkin membuatnya sulit untuk bergerak dengan cepat.
+    </string>
+
+</resources>

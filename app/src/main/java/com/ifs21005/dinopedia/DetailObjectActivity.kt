@@ -1,14 +1,17 @@
 package com.ifs21005.dinopedia
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.ifs21005.myrecycleview.R
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class DetailObjectActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,30 +24,40 @@ class DetailObjectActivity : AppCompatActivity() {
             insets
         }
 
-        // gambar planet yang dari intent di MyAdapter masuk ke sini
-        val gambarObject = intent.getIntExtra("gambarObject", 0)
+        val nama = intent.getStringExtra("nama")
+        val deskripsi = intent.getStringExtra("deskripsi")
+        val periode = intent.getStringExtra("periodeHidup")
+        val karakteristikFisik = intent.getStringExtra("karakteristikFisik")
+        val habitatDanLingkungan = intent.getStringExtra("habitatDanLingkungan")
+        val perilaku = intent.getStringExtra("perilaku")
+        val klasifikasi = intent.getStringExtra("klasifikasi")
+        val gambar = intent.getIntExtra("gambarObject", 0)
+        val listDinosaurus = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            intent.getParcelableArrayListExtra("listDinosaurus", Dinosaurus::class.java)
+        } else {
+            intent.getParcelableArrayListExtra("listDinosaurus")
+        }
 
-        // nama planet yang dari intent di MyAdapter masuk ke sini
-        val namaObject = intent.getStringExtra("namaObject")
 
-        // detail planet yang dari intent di MyAdapter masuk ke sini
-        val detailObject = intent.getIntExtra("detailObject", 0)
+        val gambarImageView : ImageView = findViewById(R.id.gambar_object_detail)
+        val namaFamiliTextView : TextView = findViewById(R.id.nama_famili)
+        val isiDeskripsiFamiliTextView : TextView = findViewById(R.id.isi_deskripsi)
+        val isiPeriodeHidupTextView : TextView = findViewById(R.id.isi_periode_hidup)
+        val isiKarakteristikFisikTextView : TextView = findViewById(R.id.isi_karakteristik_fisik)
+        val isiHabitatLingkunganTextView : TextView = findViewById(R.id.isi_habitat_lingkungan)
+        val isiPerilakuTextView : TextView = findViewById(R.id.isi_perilaku)
+        val isiKlasifikasiTextView : TextView = findViewById(R.id.isi_klasifikasi)
 
-        // deskripso planet yang dari intent di MyAdapter masuk ke sini
-        val deskripsiObject = intent.getStringExtra("deskripsiObject")
+        findViewById<TextView>(R.id.nama_object_toolbar).text = nama
+        gambarImageView.setImageResource(gambar)
+        namaFamiliTextView.text = nama
+        isiDeskripsiFamiliTextView.text =deskripsi
+        isiPerilakuTextView.text = perilaku
+        isiPeriodeHidupTextView.text = periode
+        isiKarakteristikFisikTextView.text = karakteristikFisik
+        isiHabitatLingkunganTextView.text = habitatDanLingkungan
+        isiKlasifikasiTextView.text = klasifikasi
 
-        // pada bagian ini kita menyimpan view view yang ada di activity_detail_planet ke dalam
-        // variable
-        val gambarObjectImageView : ImageView = findViewById(R.id.gambar_object_detail)
-        val namaObjectTextView : TextView = findViewById(R.id.nama_object_detail)
-        val detailObjectTextView : TextView = findViewById(R.id.detail_planet)
-
-        // pada bagian di bawah ini kita memasukkan data yang dikirimkan dari intent tadi
-        // ke dalam view view yang ada pada activity_detail_planet
-        findViewById<TextView>(R.id.nama_object_toolbar).text = namaObject
-        gambarObjectImageView.setImageResource(gambarObject)
-        namaObjectTextView.text = namaObject
-        detailObjectTextView.setText(detailObject)
 
         // mendefenisikan tombol back dan tombol share dari view yang ada pada activity_detail_planet
         val tombolBack : ImageView = findViewById(R.id.tombol_back_about)
@@ -61,8 +74,25 @@ class DetailObjectActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_SEND)
             intent.type = "text/plain"
 //            intent.putExtra(Intent.EXTRA_TEXT, "${namaObjectTextView.text}\n\n${deskripsiObject}")
-            intent.putExtra(Intent.EXTRA_TEXT, "${namaObjectTextView.text}\n\n${detailObjectTextView.text}")
+            intent.putExtra(Intent.EXTRA_TEXT, "${nama}\n\n${deskripsi}")
             startActivity(Intent.createChooser(intent, "Bagikan melalui"))
+        }
+
+        val recyclerView: RecyclerView = findViewById(R.id.dinosaurus_recycleview)
+
+        recyclerView.layoutManager = LinearLayoutManager(
+            this,
+            LinearLayoutManager.VERTICAL,
+            false
+        )
+
+        val adapter = listDinosaurus?.let { DinosaurusItemAdapter(it) }
+
+        recyclerView.adapter = adapter
+        val tombolSeeMore : Button = findViewById(R.id.tombol_see_more)
+        tombolSeeMore.setOnClickListener{
+            val intent = Intent(this, AllDinosaurus::class.java)
+            startActivity(intent)
         }
     }
 

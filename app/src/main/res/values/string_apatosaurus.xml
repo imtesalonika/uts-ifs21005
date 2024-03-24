@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_apatosaurus">
+         Apatosaurus adalah dinosaurus Sauropoda yang hidup pada periode Jura, sekitar 154 hingga 150 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Dinosaurus ini sering disebut dengan nama "Brontosaurus" sebelumnya.
+    </string>
+
+    <string name="karakteristik_apatosaurus">
+        Apatosaurus memiliki tubuh besar dengan leher dan ekor yang panjang. Mereka memiliki kaki yang kuat dan besar, serta cenderung berjalan menggunakan keempat kaki mereka.
+    </string>
+
+    <string name="kelompok_apatosaurus">Dinosaurus Sauropoda.</string>
+    <string name="habitat_apatosaurus">Mendiami daerah hutan dan dataran rendah di Amerika Utara.</string>
+    <string name="makanan_apatosaurus">Herbivora, memakan berbagai jenis tanaman rendah dan semak-semak.</string>
+    <string name="panjang_apatosaurus">Sekitar 21-22 meter.</string>
+    <string name="tinggi_apatosaurus">Sekitar 5-6 meter pada pinggul.</string>
+    <string name="bobot_apatosaurus">Sekitar 20.000 hingga 35.000 kilogram.</string>
+
+    <string name="kelemahan_apatosaurus">
+         Meskipun memiliki ukuran yang besar, Apatosaurus mungkin rentan terhadap predator yang cerdas dan gesit.
+    </string>
+</resources>

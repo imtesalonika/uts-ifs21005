@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_carnosauria">
+        Carnosauria adalah kelompok dinosaurus theropoda yang terdiri dari beberapa jenis predator besar dan kuat. Mereka dikenal sebagai pemangsa dominan pada zamannya dan termasuk beberapa dinosaurus terbesar yang pernah hidup.
+     </string>
+
+    <string name="periode_hidup_carnosauria">
+        Carnosauria hidup pada periode Jura dan Kapur, sekitar 170 hingga 66 juta tahun yang lalu.
+    </string>
+
+    <string name="karakteristik_fisik_carnosauria">
+        Carnosauria memiliki tubuh yang besar dan kuat, dengan kaki yang panjang dan kuat serta cakar yang tajam. Mereka memiliki kepala besar dengan gigi-gigi yang tajam untuk merobek daging.
+    </string>
+
+    <string name="habitat_dan_lingkungan_carnosauria">
+        Carnosauria tersebar luas di berbagai habitat, termasuk hutan, dataran rendah, dan daerah terbuka. Mereka mendiami berbagai bagian dari benua super yang ada pada masa itu.
+    </string>
+
+    <string name="perilaku_carnosauria">
+        Carnosauria merupakan predator dominan pada zamannya dan mungkin hidup secara soliter atau dalam kelompok kecil. Mereka mungkin memiliki perilaku berburu yang cerdas dan strategis untuk mengejar dan menyerang mangsa mereka.
+    </string>
+
+    <string name="klasifikasi_carnosauria">
+        Carnosauria termasuk dalam kelompok dinosaurus theropoda dan merupakan bagian dari ordo Saurischia. Mereka dibagi menjadi beberapa famili, termasuk Allosauridae dan Megalosauridae, serta berbagai genus yang termasuk dalam famili tersebut.
+    </string>
+</resources>

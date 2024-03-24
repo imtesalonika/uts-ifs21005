@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ifs21005.myrecycleview" //myrecycleview dapat diganti sesuai package name pada delcom
+    namespace = "com.ifs21005.dinopedia" //myrecycleview dapat diganti sesuai package name pada delcom
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.ifs21005.myrecycleview" //myrecycleview dapat diganti sesuai package name pada delcom
+        applicationId = "com.ifs21005.dinopedia" //myrecycleview dapat diganti sesuai package name pada delcom
         minSdk = 28
         targetSdk = 34
         versionCode = 1

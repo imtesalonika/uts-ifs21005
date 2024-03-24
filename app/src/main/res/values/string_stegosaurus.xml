@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deskripsi_stegosaurus">
+        Stegosaurus adalah dinosaurus Ornithischia yang hidup pada periode Jura, sekitar 155 hingga 150 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara dan Eropa. Mereka dikenal dengan deretan punggung yang dilapisi oleh lempeng-lempeng tulang.
+    </string>
+
+    <string name="karakteristik_stegosaurus">
+        Memiliki tubuh besar dengan punggung yang dilapisi oleh deretan lempeng tulang yang disebut sebagai "thagomizer." Ekor mereka dilengkapi dengan pasangan besar duri yang mungkin digunakan untuk pertahanan terhadap predator.
+    </string>
+
+    <string name="kelompok_stegosaurus">Dinosaurus Ornithischia.</string>
+    <string name="habitat_stegosaurus">Mendiami daerah hutan, dataran rendah, dan dataran banjir di Amerika Utara dan Eropa.</string>
+    <string name="makanan_stegosaurus"> Herbivora, memakan berbagai jenis tanaman rendah, semak-semak, dan mungkin juga paku-pakuan.</string>
+    <string name="panjang_stegosaurus">Sekitar 9-12 meter.</string>
+    <string name="tinggi_stegosaurus">Sekitar 4 meter pada punggung.</string>
+    <string name="bobot_stegosaurus">Sekitar 2.000 hingga 5.000 kilogram.</string>
+
+    <string name="kelemahan_stegosaurus">
+        Meskipun memiliki pertahanan yang kuat dengan deretan thagomizer dan duri di ekornya, Stegosaurus mungkin memiliki kecepatan yang lambat, membuatnya rentan terhadap predator yang lebih cepat dan cerdas.
+    </string>
+
+</resources>

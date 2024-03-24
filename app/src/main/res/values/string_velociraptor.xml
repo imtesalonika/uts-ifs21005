@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_velociraptor">
+        Velociraptor adalah dinosaurus theropoda yang hidup pada periode Kapur sekitar 75 hingga 71 juta tahun yang lalu di Mongolia dan Cina. Mereka dikenal dengan ukuran kecil dan kecepatan tinggi.
+    </string>
+
+    <string name="karakteristik_velociraptor">
+        Memiliki tubuh ramping, cakar tajam yang digunakan untuk menyerang mangsa, dan kemampuan berburu berkelompok yang efektif.
+    </string>
+
+    <string name="kelompok_velociraptor">
+        Dinosaurus Theropoda
+    </string>
+
+    <string name="habitat_velociraptor">
+        Umumnya mendiami daerah dataran rendah dan hutan.
+    </string>
+
+    <string name="makanan_velociraptor">
+        Carnivora, memangsa hewan-hewan kecil dan kadang-kadang berburu dalam kelompok untuk menyerang mangsa yang lebih besar.
+    </string>
+
+    <string name="panjang_velociraptor">
+        Sekitar 1,8 meter.
+    </string>
+
+    <string name="tinggi_velociraptor">
+        Sekitar 0,6 meter.
+    </string>
+
+    <string name="bobot_velociraptor">
+        Sekitar 15 hingga 20 kilogram.
+    </string>
+
+    <string name="kelemahan_velociraptor">
+        Ukurannya yang relatif kecil membuatnya rentan terhadap serangan predator yang lebih besar.
+    </string>
+
+</resources>

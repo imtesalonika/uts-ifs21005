@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string name="deskripsi_ankylosaurus">
+        Ankylosaurus adalah dinosaurus Ankylosauria yang hidup pada periode Kapur, sekitar 68 hingga 66 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Mereka dikenal dengan tubuh yang dilindungi oleh pelindung tulang dan memiliki ekor yang dilengkapi dengan tulang-tulang yang berfungsi sebagai senjata untuk membela diri.
+     </string>
+
+    <string name="karakteristik_ankylosaurus">
+        Ankylosaurus memiliki tubuh yang rendah dan lebar dengan pelindung tulang yang menutupi bagian atas tubuhnya. Ekor mereka dilengkapi dengan tulang-tulang yang keras yang digunakan sebagai senjata untuk membela diri dari predator.
+    </string>
+
+    <string name="kelompok_ankylosaurus"> Dinosaurus Ankylosauria.</string>
+    <string name="habitat_ankylosaurus"> Mendiami daerah hutan, dataran rendah, dan dataran banjir di Amerika Utara.</string>
+    <string name="makanan_ankylosaurus">Herbivora, memakan berbagai jenis tanaman rendah dan semak-semak.</string>
+    <string name="panjang_ankylosaurus">Sekitar 6-7 meter.</string>
+    <string name="tinggi_ankylosaurus">Sekitar 1,5-2 meter pada pinggul.</string>
+    <string name="bobot_ankylosaurus">Sekitar 4.000 hingga 6.000 kilogram.</string>
+
+    <string name="kelemahan_ankylosaurus">
+        Meskipun memiliki pertahanan yang kuat dengan pelindung tulang dan ekor berduri, Ankylosaurus mungkin rentan terhadap predator yang cerdas dan gesit.
+    </string>
+
+</resources>

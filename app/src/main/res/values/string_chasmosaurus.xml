@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_chasmosaurus">
+        Chasmosaurus adalah dinosaurus Ceratopsidae yang hidup pada periode Kapur, sekitar 76 hingga 74 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Mereka memiliki frill yang lebih besar dan lebih panjang dibandingkan dengan Triceratops.
+    </string>
+
+    <string name="karakteristik_chasmosaurus">
+        Chasmosaurus dikenal dengan frill yang besar dan berukiran yang melengkung di bagian belakang kepala. Mereka memiliki dua tanduk di atas mata dan frill yang sangat besar yang mungkin digunakan untuk tujuan pertahanan dan komunikasi visual.
+    </string>
+
+    <string name="kelompok_chasmosaurus">Dinosaurus Ceratopsidae.</string>
+    <string name="habitat_chasmosaurus">Mendiami daerah dataran rendah, dataran banjir, dan hutan-hutan di Amerika Utara.</string>
+    <string name="makanan_chasmosaurus">Herbivora, memakan berbagai jenis tanaman rendah dan semak-semak.</string>
+    <string name="panjang_chasmosaurus">Sekitar 5-6 meter.</string>
+    <string name="tinggi_chasmosaurus">Sekitar 2-3 meter pada pinggul.</string>
+    <string name="bobot_chasmosaurus">Sekitar 3.000 hingga 4.000 kilogram.</string>
+
+    <string name="kelemahan_chasmosaurus">
+        Meskipun memiliki pertahanan dengan tanduk dan pelindung tulang, Chasmosaurus mungkin rentan terhadap predator yang cukup gesit dalam menyerang.
+    </string>
+
+</resources>

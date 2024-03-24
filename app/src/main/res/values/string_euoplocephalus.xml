@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string name="deskripsi_euoplocephalus">
+        Euoplocephalus adalah dinosaurus Ankylosauria yang hidup pada periode Kapur, sekitar 76 hingga 70 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Mereka dikenal dengan pelindung tulang dan duri-duri yang melapisi tubuh mereka.
+     </string>
+
+    <string name="karakteristik_euoplocephalus">
+         Euoplocephalus memiliki tubuh yang rendah dan dilindungi oleh pelindung tulang dan duri-duri yang terletak di sepanjang tubuhnya. Ekor mereka dilengkapi dengan tulang-tulang yang keras yang digunakan untuk membela diri dari predator.
+    </string>
+
+    <string name="kelompok_euoplocephalus">Dinosaurus Ankylosauria.</string>
+    <string name="habitat_euoplocephalus"> Mendiami daerah dataran rendah, dataran banjir, dan hutan di Amerika Utara.</string>
+    <string name="makanan_euoplocephalus">Herbivora, memakan berbagai jenis tanaman rendah dan semak-semak.</string>
+    <string name="panjang_euoplocephalus">Sekitar 6-7 meter.</string>
+    <string name="tinggi_euoplocephalus">Sekitar 2-2,5 meter pada pinggul.</string>
+    <string name="bobot_euoplocephalus">Sekitar 2.500 hingga 3.000 kilogram.</string>
+
+    <string name="kelemahan_euoplocephalus">
+        Meskipun memiliki pelindung tulang yang kuat, Euoplocephalus mungkin rentan terhadap predator yang cerdas dan gesit, terutama jika terjebak dalam serangan dari predator berkelompok.
+    </string>
+
+</resources>

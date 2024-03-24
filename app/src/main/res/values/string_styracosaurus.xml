@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_styracosaurus">
+        Styracosaurus adalah dinosaurus Ceratopsidae yang hidup pada periode Kapur, sekitar 75 hingga 70 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Mereka dikenal dengan tanduk dan tanduk kecil yang menonjol dari tengkoraknya.
+    </string>
+
+    <string name="karakteristik_styracosaurus">
+        Styracosaurus memiliki ciri khas tanduk besar di atas hidungnya, serta tanduk-tanduk kecil yang menonjol dari frill di bagian belakang tengkoraknya. Mereka juga memiliki pelindung tulang yang menutupi tubuh bagian atasnya.
+    </string>
+
+    <string name="kelompok_styracosaurus">Dinosaurus Ceratopsidae.</string>
+    <string name="habitat_styracosaurus">Mendiami daerah dataran rendah, dataran banjir, dan hutan-hutan di Amerika Utara.</string>
+    <string name="makanan_styracosaurus"> Herbivora, memakan berbagai jenis tanaman rendah dan semak-semak.</string>
+    <string name="panjang_styracosaurus">Sekitar 5-6 meter.</string>
+    <string name="tinggi_styracosaurus">Sekitar 2,5 meter pada pinggul.</string>
+    <string name="bobot_styracosaurus">Sekitar 2.000 hingga 3.000 kilogram.</string>
+
+    <string name="kelemahan_styracosaurus">
+        Meskipun memiliki pertahanan dengan tanduk-tanduknya, Styracosaurus mungkin rentan terhadap predator yang cukup gesit dalam menyerang.
+    </string>
+
+</resources>

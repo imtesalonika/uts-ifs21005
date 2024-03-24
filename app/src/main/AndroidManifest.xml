@@ -13,16 +13,19 @@
         android:theme="@style/Theme.MotorcycleApp"
         tools:targetApi="31">
         <activity
+            android:name=".AllDinosaurus"
+            android:exported="false" />
+        <activity
+            android:name=".DetailDinosaurusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailObjectActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.ifs21005.dinopedia.AboutActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.ifs21005.dinopedia.DetailObjectActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.ifs21005.dinopedia.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="deskripsi_parasaurolophus">
+        Parasaurolophus adalah dinosaurus Hadrosauridae yang hidup pada periode Kapur, sekitar 76 hingga 73 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Mereka dikenal dengan ciri khas tengkorak berbentuk tabung yang panjang, yang mungkin digunakan untuk menghasilkan suara.
+    </string>
+
+    <string name="karakteristik_parasaurolophus">
+        Parasaurolophus memiliki tubuh yang besar dengan kaki yang kuat, dan mereka sering berjalan bipedal. Ciri khas mereka adalah tengkorak berbentuk tabung yang panjang dan melengkung, mungkin digunakan untuk komunikasi suara atau untuk pengaturan suhu tubuh.
+    </string>
+
+    <string name="kelompok_parasaurolophus"> Dinosaurus Hadrosauridae.</string>
+    <string name="habitat_parasaurolophus">Mendiami daerah dataran rendah, daerah rawa-rawa, dan hutan-hutan di Amerika Utara.</string>
+    <string name="makanan_parasaurolophus">Herbivora, memakan berbagai jenis tanaman rendah, semak-semak, dan mungkin paku-pakuan.</string>
+    <string name="panjang_parasaurolophus">Sekitar 9-10 meter.</string>
+    <string name="tinggi_parasaurolophus">Sekitar 4-5 meter pada pinggul.</string>
+    <string name="bobot_parasaurolophus"> Sekitar 2.000 hingga 4.000 kilogram.</string>
+
+    <string name="kelemahan_parasaurolophus">
+        Meskipun memiliki ukuran tubuh yang besar, Parasaurolophus mungkin rentan terhadap predator yang cerdas dan gesit.
+    </string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deskripsi_triceratops">
+        Triceratops adalah dinosaurus Ornithischia yang hidup pada periode Kapur, sekitar 68 hingga 66 juta tahun yang lalu, di wilayah yang sekarang menjadi Amerika Utara. Mereka dikenal dengan ciri khas tanduk dan frill pada tengkoraknya.
+    </string>
+
+    <string name="karakteristik_triceratops">
+        Memiliki tubuh besar dengan tanduk yang menonjol dari tengkoraknya, serta frill yang melengkung di bagian belakang kepala. Tubuhnya dilindungi oleh pelindung tulang dan plak. Tanduk yang besar biasanya digunakan untuk pertahanan dan mungkin juga untuk menarik perhatian lawan jenis.
+    </string>
+
+    <string name="kelompok_triceratops">Dinosaurus Ornithischia.</string>
+    <string name="makanan_triceratops">Mendiami daerah dataran rendah, dataran banjir, dan hutan-hutan di Amerika Utara.</string>
+    <string name="habitat_triceratops">Herbivora, memakan berbagai jenis tanaman rendah dan semak-semak.</string>
+    <string name="panjang_triceratops">Sekitar 7-9 meter.</string>
+    <string name="tinggi_triceratops">Sekitar 3-4 meter pada pinggul.</string>
+    <string name="bobot_triceratops">Sekitar 6.000 hingga 12.000 kilogram.</string>
+
+    <string name="kelemahan_triceratops">
+        Meskipun memiliki pertahanan yang kuat dengan tanduk dan pelindung tulang, Triceratops mungkin rentan terhadap serangan predator yang cerdas dan gesit.
+    </string>
+
+</resources>
